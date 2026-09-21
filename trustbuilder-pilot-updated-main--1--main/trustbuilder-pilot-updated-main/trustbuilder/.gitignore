@@ -1,0 +1,3 @@
+.trustbuilder-data/
+.env
+*.log

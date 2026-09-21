@@ -1,0 +1,630 @@
+{
+  "schemaVersion": 4,
+  "users": [
+    {
+      "id": "usr-alex",
+      "name": "Alex Morgan",
+      "email": "alex.morgan@example.com",
+      "role": "participant",
+      "cohort": "Cohort 01",
+      "status": "active"
+    },
+    {
+      "id": "usr-priya",
+      "name": "Priya Shah",
+      "email": "priya.shah@example.com",
+      "role": "facilitator",
+      "cohort": "Cohort 01",
+      "status": "active",
+      "passwordSalt": "c8c99e7f550308e19cc137fb3b5519ee",
+      "passwordHash": "eafc2b9406adc43ab59d2b3c8cb585d705dd58d0634c361c1d599c0ffa28a31f26f2ef3fa7a91a772ee8f4c9e82bbf352ca49032d280f3fac0b588ccf5453d08"
+    },
+    {
+      "id": "usr-jordan",
+      "name": "Jordan Lee",
+      "email": "jordan.lee@example.com",
+      "role": "administrator",
+      "cohort": "—",
+      "status": "active"
+    },
+    {
+      "id": "usr-04c237a9-bff3-45d6-8c0c-ec82b2b54a6d",
+      "name": "Shandrakala Nagendran",
+      "email": "shandrakalanagendran@gmail.com",
+      "role": "participant",
+      "cohort": "Cohort 01",
+      "status": "active",
+      "createdAt": "2026-09-08T17:00:51.306Z",
+      "passwordHash": "ad2bdf58bf16b0b21f2d6cdbad2c8999f86076e458f25f322baea8956c836760a684c545ea68750699ac91305563ec83729cfd0bca3ba19f8c45efd18e0f0cb7",
+      "passwordSalt": "9d0865a1398bdd2f91e4296071f961a1"
+    },
+    {
+      "id": "usr-26ef8240-d79e-43d9-8c81-2d69df5b3188",
+      "name": "Shandrakala Nagendran",
+      "email": "shandrakalan@gmail.com",
+      "role": "participant",
+      "cohort": "Cohort 01",
+      "status": "active",
+      "createdAt": "2026-09-08T17:21:14.508Z",
+      "passwordHash": "6ba5bbb1d555ab89edffae08c44aafcdee2bf46ce74a5a4834702ca6fa1e34a4194199d3cae7ae20aaa5d3d40d385e16b6f2e1f564a2ccc75d206b0395d040d2",
+      "passwordSalt": "74bd3fb31851b7e2afc18c22877d58c1"
+    },
+    {
+      "id": "usr-5fc157d6-16d2-4c47-889b-debe4c76f5ba",
+      "name": "karthick",
+      "email": "ks@gmail.com",
+      "role": "participant",
+      "cohort": "Cohort 01",
+      "status": "active",
+      "createdAt": "2026-09-09T04:53:18.842Z",
+      "passwordHash": "87678c666df19d8e9c990e4e3622ae87640936f6fd05672f45f9f8996594866b6a129118c93598a1acfc93cf12afa9c2ad229cb5a0d35b9633619645a6c34a4e",
+      "passwordSalt": "3df482506258d76ab02e2020e04fe8d9"
+    },
+    {
+      "id": "usr-bb66339e-2e7c-4336-9514-006755693a02",
+      "name": "nithish",
+      "email": "ns@gmail.com",
+      "role": "participant",
+      "cohort": "Cohort 01",
+      "status": "active",
+      "createdAt": "2026-09-09T05:26:17.448Z",
+      "passwordHash": "b146dbd3a34c2f95aca3767c36bcffa76a99343f2ff8480db6664f7a41a7884130a7c2e02eb0e00a8c37a5261bd54591614bbe4dbce9c4bff768e13698e32b78",
+      "passwordSalt": "1a6eb66fe10839c4fa0831e100cb37ef"
+    },
+    {
+      "id": "usr-7c169468-93ea-4b59-92d3-9b734df0639f",
+      "name": "abi",
+      "email": "abi@gmail.com",
+      "role": "participant",
+      "cohort": "Cohort 01",
+      "status": "active",
+      "createdAt": "2026-09-09T09:47:43.223Z",
+      "passwordHash": "518941f629a4c42afe7901f4237c1f15558d30e95be21e76b711b3667c0a48c0b11a15b2a66ecab624122032591e3e47260149abbe38dc7c321781fb090245ce",
+      "passwordSalt": "cf6f29aabc0b9e55059dc741bae53307"
+    },
+    {
+      "id": "usr-58c94141-43ca-46ae-8caf-4f5b8f7a3b33",
+      "name": "nisha",
+      "email": "nisha@gmail.com",
+      "role": "participant",
+      "cohort": "Cohort 01",
+      "status": "active",
+      "createdAt": "2026-09-09T09:56:21.147Z",
+      "passwordHash": "19078cbeca403209e7f496a532b4e3f2e8b03ecaf8c9d58c5a25ac79159d9e2d62db874271527130af3ef94819d2151f7f13a1d155058476e1eddcab0a9d0f02",
+      "passwordSalt": "e5cc89c60f99f04e12dc2f078b165424"
+    },
+    {
+      "id": "usr-9239b747-86fd-4d3e-9885-6908a60abaae",
+      "name": "shree",
+      "email": "shree@gmail.com",
+      "role": "facilitator",
+      "cohort": "Cohort 01",
+      "status": "active",
+      "createdAt": "2026-09-09T10:55:24.012Z",
+      "passwordHash": "9fa109d66afef7e9c2418917082e8830538cddd64c7a27143be04c333e46481861e306259868c93459a452fdd5ce3e6955b8f99a6631852d56a30d0e28f7123e",
+      "passwordSalt": "0ded6f6f92d11e732189c7674d30c173"
+    },
+    {
+      "id": "usr-67644b62-d86f-402d-b123-dc4586c94ff0",
+      "name": "Shandrakala Nagendran",
+      "email": "shandrakala@gmail.com",
+      "role": "administrator",
+      "cohort": "—",
+      "status": "active",
+      "createdAt": "2026-09-09T10:57:04.521Z",
+      "passwordHash": "e1ba4f6b0b44c087b36e305cd2c6c3933b9d4bcd91548c31f5207ac0535e773cd832df26c80f3bfdc1f7e67570c501bd49a19e1c8ac17cb7c2f59e10d65d58d1",
+      "passwordSalt": "88bf3c3ae57652860e4591df9c1aa395"
+    },
+    {
+      "id": "usr-2b9d56bf-f119-4472-94d7-93d35450e170",
+      "name": "nithish",
+      "email": "nithish1@gmail.com",
+      "role": "participant",
+      "cohort": "Cohort 01",
+      "status": "active",
+      "createdAt": "2026-09-11T06:00:05.693Z",
+      "passwordHash": "480e45546d38f41dd72f3133b4cd01734908de643bcb0e64da77fa7dcf3aa26ca573a5daa430e16aa97748850615e8d9e9e034d4f862022ea3872f338a203eb8",
+      "passwordSalt": "fb1f072524bd299bc00c16f83c321f10"
+    },
+    {
+      "id": "usr-27589ddf-3678-4161-8219-9520081406da",
+      "name": "Nithish",
+      "email": "nit1@gmail.com",
+      "role": "participant",
+      "cohort": "Cohort 01",
+      "status": "active",
+      "createdAt": "2026-09-21T16:12:54.189Z",
+      "passwordHash": "ca8e07f51254c6495bfdf637f6512695e738333d8050f732124943924cfad52be4874e31821535b0056abd592b36158e0eaba0e46728b8cda58cc2bb74f03561",
+      "passwordSalt": "dc6446bfa66292d489740588128182a4"
+    }
+  ],
+  "templates": [
+    {
+      "id": "template-trusted-client-conversation",
+      "name": "Trusted client conversation",
+      "description": "Evidence-bound, professional communication under client pressure.",
+      "objective": "Build trust by addressing the client concern directly, bounding uncertainty, and agreeing a responsible next step.",
+      "scoringWeights": {
+        "grammar": 15,
+        "vocabulary": 15,
+        "relevance": 20,
+        "dos": 20,
+        "donts": 15,
+        "clarity": 10,
+        "repetition": 5
+      },
+      "difficulty": "Developing",
+      "conversationRules": {
+        "maxTurns": 6,
+        "minimumTurns": 3,
+        "oneMessagePerTurn": true,
+        "revealScoring": false
+      },
+      "active": true,
+      "version": 1
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "insufficient-evidence",
+      "templateId": "template-trusted-client-conversation",
+      "title": "Pressure for an immediate answer",
+      "type": "ADVISOR-LED",
+      "domain": "FARM / MINE",
+      "context": "A production incident is affecting order reconciliation for a priority client. The primary service is restored, but downstream validation is incomplete.",
+      "participantRole": "Engagement delivery lead",
+      "otherRole": "Maya Rao, client operations sponsor",
+      "objective": "Respond to a request for a 4pm recovery guarantee without overpromising, while preserving client confidence.",
+      "openingSituation": "I need a clear answer. Can you guarantee that we will be fully recovered by 4pm?",
+      "dos": [
+        "Separate confirmed facts from unresolved evidence",
+        "Set a precise checkpoint for the next update"
+      ],
+      "donts": [
+        "Do not treat restored service as proof that downstream reconciliation is complete"
+      ],
+      "expectedBehaviors": [
+        "Acknowledges urgency",
+        "Bounds uncertainty",
+        "Names required validation",
+        "Commits to a timed update"
+      ],
+      "evaluationCriteria": [
+        "Judgement & Restraint",
+        "Professional Speech Excellence",
+        "Active Listening"
+      ],
+      "impactEmphasis": [
+        "Interpret the Context",
+        "Position Your POV",
+        "Make Outcomes Visible",
+        "Adapt Communication"
+      ],
+      "possibleConversationDirections": [
+        "business impact",
+        "evidence ownership",
+        "recovery checkpoint",
+        "trust challenge"
+      ],
+      "difficulty": "Developing",
+      "status": "published",
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "brian-cto",
+      "templateId": "template-trusted-client-conversation",
+      "title": "Brian — CTO",
+      "type": "CLIENT-TRIGGERED",
+      "domain": "FARM",
+      "context": "Brian has challenged the value of the current solution and needs a credible basis for deciding whether to continue.",
+      "participantRole": "Engagement delivery lead",
+      "otherRole": "Brian, CTO",
+      "objective": "Listen actively, adapt to the CTO's concern, make outcomes visible, and exercise judgement and restraint.",
+      "openingSituation": "We have spent six months on this solution and still do not see the business impact. Why should I approve the next phase?",
+      "clientStatement": "We have spent six months on this solution and still do not see the business impact. Why should I approve the next phase?",
+      "dos": [
+        "Acknowledge the concern before responding",
+        "Clarify the impact and decision criteria",
+        "Make outcomes and trade-offs visible"
+      ],
+      "donts": [
+        "Do not defend the solution without evidence",
+        "Do not promise outcomes that have not been demonstrated"
+      ],
+      "expectedBehaviors": [
+        "Listens for the underlying concern",
+        "Adapts the response to the business context",
+        "Makes a restrained, evidence-based recommendation"
+      ],
+      "evaluationCriteria": [
+        "Active Listening",
+        "Adaptive Thinking",
+        "Judgement & Restraint",
+        "Professional Speech Excellence",
+        "Language Accuracy"
+      ],
+      "impactEmphasis": [
+        "Interpret the Context",
+        "Make Outcomes Visible",
+        "Position Your POV",
+        "Restraint"
+      ],
+      "possibleConversationDirections": [
+        "business impact",
+        "success criteria",
+        "evidence gap",
+        "next-phase decision"
+      ],
+      "difficulty": "Integrated",
+      "status": "published",
+      "active": true,
+      "version": 1
+    }
+  ],
+  "sessions": [
+    {
+      "id": "session-84ffdd24-c8a1-46b8-8037-957833f548b8",
+      "sessionId": "session-84ffdd24-c8a1-46b8-8037-957833f548b8",
+      "scenarioId": "insufficient-evidence",
+      "templateId": "template-trusted-client-conversation",
+      "participantId": "usr-2b9d56bf-f119-4472-94d7-93d35450e170",
+      "attemptNumber": 1,
+      "status": "waiting_for_user",
+      "turnNumber": 0,
+      "submissionNumber": 0,
+      "conversationHistory": [
+        {
+          "id": "turn-d96ad209-6725-4e50-b769-a1389225b303",
+          "role": "ai",
+          "text": "I need a clear answer. Can you guarantee that we will be fully recovered by 4pm?",
+          "decision": "FOLLOW_UP",
+          "conversationGoal": "Respond to a request for a 4pm recovery guarantee without overpromising, while preserving client confidence.",
+          "phase": 4,
+          "provider": "safe-fallback",
+          "model": "scenario-opening",
+          "promptVersion": "trustbuilder-conversation-v2",
+          "timestamp": "2026-09-11T06:02:30.148Z"
+        }
+      ],
+      "latestUserResponse": null,
+      "currentObjective": "Respond to a request for a 4pm recovery guarantee without overpromising, while preserving client confidence.",
+      "objectives": [
+        "Respond to a request for a 4pm recovery guarantee without overpromising, while preserving client confidence.",
+        "Acknowledges urgency",
+        "Bounds uncertainty",
+        "Names required validation",
+        "Commits to a timed update"
+      ],
+      "completedObjectives": [],
+      "detectedDos": [],
+      "detectedDonts": [],
+      "evaluations": [],
+      "runningScores": {
+        "rawScores": {
+          "grammar": 0,
+          "vocabulary": 0,
+          "relevance": 0,
+          "dos": 0,
+          "donts": 0,
+          "clarity": 0,
+          "repetition": 0
+        },
+        "weightedScore": 0,
+        "finalScore": 0,
+        "turnsEvaluated": 0
+      },
+      "tokenUsage": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "aiProvider": "safe-fallback",
+      "promptVersion": "trustbuilder-conversation-v2",
+      "maxTurns": 6,
+      "revision": 1,
+      "startedAt": "2026-09-11T06:02:30.146Z",
+      "updatedAt": "2026-09-11T06:02:30.148Z",
+      "completedAt": null
+    },
+    {
+      "id": "session-8ed1fa58-893c-4c5e-9636-8da9842b5605",
+      "sessionId": "session-8ed1fa58-893c-4c5e-9636-8da9842b5605",
+      "scenarioId": "insufficient-evidence",
+      "templateId": "template-trusted-client-conversation",
+      "participantId": "usr-27589ddf-3678-4161-8219-9520081406da",
+      "attemptNumber": 1,
+      "status": "waiting_for_user",
+      "turnNumber": 0,
+      "submissionNumber": 0,
+      "conversationHistory": [
+        {
+          "id": "turn-f44a9ad7-db4e-4bbc-9f38-d11832e58062",
+          "role": "ai",
+          "text": "I need a clear answer. Can you guarantee that we will be fully recovered by 4pm?",
+          "decision": "FOLLOW_UP",
+          "conversationGoal": "Respond to a request for a 4pm recovery guarantee without overpromising, while preserving client confidence.",
+          "phase": 4,
+          "provider": "safe-fallback",
+          "model": "scenario-opening",
+          "promptVersion": "trustbuilder-conversation-v2",
+          "timestamp": "2026-09-21T16:14:01.744Z"
+        }
+      ],
+      "latestUserResponse": null,
+      "currentObjective": "Respond to a request for a 4pm recovery guarantee without overpromising, while preserving client confidence.",
+      "objectives": [
+        "Respond to a request for a 4pm recovery guarantee without overpromising, while preserving client confidence.",
+        "Acknowledges urgency",
+        "Bounds uncertainty",
+        "Names required validation",
+        "Commits to a timed update"
+      ],
+      "completedObjectives": [],
+      "detectedDos": [],
+      "detectedDonts": [],
+      "evaluations": [],
+      "runningScores": {
+        "rawScores": {
+          "grammar": 0,
+          "vocabulary": 0,
+          "relevance": 0,
+          "dos": 0,
+          "donts": 0,
+          "clarity": 0,
+          "repetition": 0
+        },
+        "weightedScore": 0,
+        "finalScore": 0,
+        "turnsEvaluated": 0
+      },
+      "tokenUsage": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "aiProvider": "safe-fallback",
+      "promptVersion": "trustbuilder-conversation-v2",
+      "maxTurns": 6,
+      "revision": 1,
+      "startedAt": "2026-09-21T16:14:01.742Z",
+      "updatedAt": "2026-09-21T16:14:01.744Z",
+      "completedAt": null
+    }
+  ],
+  "evaluations": [],
+  "assessmentResults": [],
+  "attempts": [
+    {
+      "id": "attempt-22162da3-a7ed-485f-9d48-f8562a51b15c",
+      "sessionId": "session-84ffdd24-c8a1-46b8-8037-957833f548b8",
+      "participantId": "usr-2b9d56bf-f119-4472-94d7-93d35450e170",
+      "scenarioId": "insufficient-evidence",
+      "attemptNumber": 1,
+      "createdAt": "2026-09-11T06:02:30.146Z",
+      "status": "in_progress"
+    },
+    {
+      "id": "attempt-d055310d-2ca3-4783-b1ac-ced2b57751da",
+      "sessionId": "session-8ed1fa58-893c-4c5e-9636-8da9842b5605",
+      "participantId": "usr-27589ddf-3678-4161-8219-9520081406da",
+      "scenarioId": "insufficient-evidence",
+      "attemptNumber": 1,
+      "createdAt": "2026-09-21T16:14:01.742Z",
+      "status": "in_progress"
+    }
+  ],
+  "reviews": [],
+  "audit": [
+    {
+      "id": "audit-6a1e4990-25ca-4669-8b25-a4c4e9617cbb",
+      "timestamp": "2026-09-08T17:00:51.306Z",
+      "actorId": "usr-04c237a9-bff3-45d6-8c0c-ec82b2b54a6d",
+      "actorRole": "participant",
+      "action": "account_registered",
+      "recordType": "User",
+      "recordId": "usr-04c237a9-bff3-45d6-8c0c-ec82b2b54a6d",
+      "requestId": "web-32e6c3c3-d8b4-497e-82d0-dad85ed150ac",
+      "metadata": {}
+    },
+    {
+      "id": "audit-a42af897-fe93-45f2-8639-df3b2921ea4b",
+      "timestamp": "2026-09-08T17:21:14.508Z",
+      "actorId": "usr-26ef8240-d79e-43d9-8c81-2d69df5b3188",
+      "actorRole": "participant",
+      "action": "account_registered",
+      "recordType": "User",
+      "recordId": "usr-26ef8240-d79e-43d9-8c81-2d69df5b3188",
+      "requestId": "web-8801f9f1-59fb-4601-b43c-3525827f8b59",
+      "metadata": {}
+    },
+    {
+      "id": "audit-6a6d70b6-d286-4b5f-a6d5-c63ffa7ce6b2",
+      "timestamp": "2026-09-09T04:53:18.842Z",
+      "actorId": "usr-5fc157d6-16d2-4c47-889b-debe4c76f5ba",
+      "actorRole": "participant",
+      "action": "account_registered",
+      "recordType": "User",
+      "recordId": "usr-5fc157d6-16d2-4c47-889b-debe4c76f5ba",
+      "requestId": "web-0c45a28b-928c-411c-956b-63b6343d815c",
+      "metadata": {}
+    },
+    {
+      "id": "audit-1cbfee12-0932-4b9d-9e9e-a9e6c3e97b19",
+      "timestamp": "2026-09-09T05:26:17.448Z",
+      "actorId": "usr-bb66339e-2e7c-4336-9514-006755693a02",
+      "actorRole": "participant",
+      "action": "account_registered",
+      "recordType": "User",
+      "recordId": "usr-bb66339e-2e7c-4336-9514-006755693a02",
+      "requestId": "web-e6977be9-6ba6-4ad1-9398-bdefb3bddd05",
+      "metadata": {}
+    },
+    {
+      "id": "audit-0bc0f837-5c62-4e93-a623-d334d2271195",
+      "timestamp": "2026-09-09T09:47:43.224Z",
+      "actorId": "usr-7c169468-93ea-4b59-92d3-9b734df0639f",
+      "actorRole": "participant",
+      "action": "account_registered",
+      "recordType": "User",
+      "recordId": "usr-7c169468-93ea-4b59-92d3-9b734df0639f",
+      "requestId": "web-fb6fcfb0-535d-46ab-92f0-a58c5bfdb0e7",
+      "metadata": {}
+    },
+    {
+      "id": "audit-caa9932e-5e5c-4b66-966f-bd26829463c8",
+      "timestamp": "2026-09-09T09:56:21.147Z",
+      "actorId": "usr-58c94141-43ca-46ae-8caf-4f5b8f7a3b33",
+      "actorRole": "participant",
+      "action": "account_registered",
+      "recordType": "User",
+      "recordId": "usr-58c94141-43ca-46ae-8caf-4f5b8f7a3b33",
+      "requestId": "web-b5d578c8-e92f-4af8-a37c-eeee01ef30e4",
+      "metadata": {}
+    },
+    {
+      "id": "audit-7ef9c90a-715e-459e-bfc5-3ccad87897ba",
+      "timestamp": "2026-09-09T10:55:24.012Z",
+      "actorId": "usr-9239b747-86fd-4d3e-9885-6908a60abaae",
+      "actorRole": "facilitator",
+      "action": "account_registered",
+      "recordType": "User",
+      "recordId": "usr-9239b747-86fd-4d3e-9885-6908a60abaae",
+      "requestId": "web-a7e608c2-61b5-4d29-abab-bdc0392159e8",
+      "metadata": {}
+    },
+    {
+      "id": "audit-e09581cf-b1dc-4e07-92d6-1f16df4beea6",
+      "timestamp": "2026-09-09T10:57:04.521Z",
+      "actorId": "usr-67644b62-d86f-402d-b123-dc4586c94ff0",
+      "actorRole": "administrator",
+      "action": "account_registered",
+      "recordType": "User",
+      "recordId": "usr-67644b62-d86f-402d-b123-dc4586c94ff0",
+      "requestId": "web-cb67bbc8-471c-4a83-b648-bae3ae57b7f5",
+      "metadata": {}
+    },
+    {
+      "id": "audit-7f94c28c-0fa5-4eb0-baab-80ecdec5a667",
+      "timestamp": "2026-09-11T06:00:05.693Z",
+      "actorId": "usr-2b9d56bf-f119-4472-94d7-93d35450e170",
+      "actorRole": "participant",
+      "action": "account_registered",
+      "recordType": "User",
+      "recordId": "usr-2b9d56bf-f119-4472-94d7-93d35450e170",
+      "requestId": "web-8ef63fd9-958c-46e2-bb2a-2319cd1779fd",
+      "metadata": {}
+    },
+    {
+      "id": "audit-3b5c8fb9-68f2-4048-8b76-87844f17afa9",
+      "timestamp": "2026-09-11T06:02:30.148Z",
+      "actorId": "usr-2b9d56bf-f119-4472-94d7-93d35450e170",
+      "actorRole": "participant",
+      "action": "conversation_started",
+      "recordType": "ConversationSession",
+      "recordId": "session-84ffdd24-c8a1-46b8-8037-957833f548b8",
+      "requestId": "web-3f1749b8-9c94-43bf-8361-0a477748a8b2",
+      "metadata": {
+        "scenarioId": "insufficient-evidence",
+        "templateId": "template-trusted-client-conversation"
+      }
+    },
+    {
+      "id": "audit-f48b53c4-76d6-4a73-a254-9d2af2c731fd",
+      "timestamp": "2026-09-21T16:12:54.189Z",
+      "actorId": "usr-27589ddf-3678-4161-8219-9520081406da",
+      "actorRole": "participant",
+      "action": "account_registered",
+      "recordType": "User",
+      "recordId": "usr-27589ddf-3678-4161-8219-9520081406da",
+      "requestId": "web-9205feb5-cf9c-454b-b1ee-4fa72eed9752",
+      "metadata": {}
+    },
+    {
+      "id": "audit-8fe4ede0-7064-46b7-bb0e-1662bfc2ba98",
+      "timestamp": "2026-09-21T16:14:01.744Z",
+      "actorId": "usr-27589ddf-3678-4161-8219-9520081406da",
+      "actorRole": "participant",
+      "action": "conversation_started",
+      "recordType": "ConversationSession",
+      "recordId": "session-8ed1fa58-893c-4c5e-9636-8da9842b5605",
+      "requestId": "web-bb4602f7-8e58-456d-9260-6933339c6b73",
+      "metadata": {
+        "scenarioId": "insufficient-evidence",
+        "templateId": "template-trusted-client-conversation"
+      }
+    }
+  ],
+  "useCases": [
+    {
+      "name": "Regulatory Document Analysis",
+      "description": "Analyse regulatory documents so reviewers can identify requirements, evidence gaps, and items needing human judgement.",
+      "objective": "Help a regulatory reviewer prepare an evidence-based compliance decision.",
+      "businessProblem": "Manual review is slow and inconsistent across large document sets.",
+      "trigger": "A document package is submitted for regulatory review.",
+      "currentProcess": "Reviewers manually inspect and cross-reference every document.",
+      "desiredOutcome": "Decide whether the document package meets the applicable requirements.",
+      "aiRole": "Extract requirements, compare evidence, and flag gaps.",
+      "humanRole": "Validate findings and make the final compliance decision.",
+      "targetUsers": [
+        "Regulatory reviewer"
+      ],
+      "stakeholders": [
+        "Compliance lead",
+        "Legal counsel"
+      ],
+      "inputs": [
+        "Regulatory documents",
+        "Applicable requirements"
+      ],
+      "outputs": [
+        "Evidence-linked review summary",
+        "Flagged gaps"
+      ],
+      "dataSources": [
+        "Controlled document repository"
+      ],
+      "systems": [
+        "Document management system"
+      ],
+      "dependencies": [],
+      "constraints": [
+        "Human reviewer retains final decision authority"
+      ],
+      "assumptions": [],
+      "risks": [
+        "A missed requirement could create a compliance exposure"
+      ],
+      "successCriteria": [
+        "Every finding links to source evidence"
+      ],
+      "kpis": [
+        "Review cycle time",
+        "Reviewer-confirmed finding precision"
+      ],
+      "edgeCases": [
+        "Conflicting requirements across jurisdictions"
+      ],
+      "confirmedFacts": [
+        "This is an established TrustBuilder use case."
+      ],
+      "openQuestions": [],
+      "decisions": [
+        "Keep final regulatory judgement with a human reviewer."
+      ],
+      "conflicting": [],
+      "deferred": [],
+      "id": "usecase-regulatory-document-analysis",
+      "status": "published",
+      "version": 1,
+      "createdBy": "usr-priya",
+      "updatedBy": "usr-priya",
+      "createdAt": "2026-08-26T00:00:00.000Z",
+      "updatedAt": "2026-08-26T00:00:00.000Z",
+      "answeredFields": [],
+      "relationshipObservations": []
+    }
+  ],
+  "useCaseConversations": [],
+  "useCaseAudit": []
+}
